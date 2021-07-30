@@ -1,6 +1,5 @@
 @font-face {font-family: Megrim; src: url(../font/Megrim-Regular.ttf);}
 @font-face {font-family: jf-openhuninn; src: url(../font/jf-openhuninn-1.1.ttf);}
-
 body {
     background-color: rgba(138, 122, 173, 0.31);;
 }
@@ -62,9 +61,6 @@ body {
     top: 800px;
     width: 120px;
 }
-
-
-
 .button {
     border: 0px solid transparent;
     background-color: transparent;
@@ -84,7 +80,7 @@ body {
     content: '\00bb';
     position: absolute;
     opacity: 0;
-    top: -1.25px;
+    top: -2.4px;
     right: -20px;
     transition: 0.2s;
 }
