@@ -1,2 +1,2 @@
 Pages is a really a terrible realtime preview tol.
-https://lturret.github.io/MochizukiAPI/
+https://lturret.github.io/MochizukiAPI/index.html
