@@ -18,7 +18,7 @@ body {
     height: 743px;
     left: 1150px;
     top: 100px;
-    background: url(024ann_001.png);
+    background: url(files\image\index\holder.png);
 }
 .Text_undercover {
     display: flex;
@@ -39,19 +39,19 @@ body {
     align-items: center;
     width: 912px;
     height: 142px;
-    font-family: "Megrim";
+    font-family: Megrim;
     font-style: normal;
     font-size: 96px;
     color: #3C3C3C;
     text-shadow: -1px 0 #3c3c3c, 0 1px #3c3c3c, 1px 0 #3c3c3c, 0 -1px #3c3c3c;
 }
-.direction {
+.path {
     display: flex;
     justify-content: center;
 }
 #enter {
     font-size: 30px;
-    font-family: "jf open 粉圓 1.1";
+    font-family: jf-openhuninn;
 }
 .container {
     position: absolute;
