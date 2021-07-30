@@ -21,7 +21,7 @@ body {
     height: 743px;
     left: 1150px;
     top: 100px;
-    background: url(024ann_001.png);
+    background: url(../image/index/holder.png);
 }
 .Text_undercover {
     display: flex;
