@@ -29,7 +29,6 @@ input{
     transition: .3s;
 }
 .BodyKeyword:hover{
-    font-size:larger;
     color:#C7B83C;
     transition: .3s;
 }
@@ -98,10 +97,13 @@ input{
     transition: .1s;
 }
 #btn:hover{
-    font-size:32px;
     background-color:#7E6CA8;
     color:#ececec;
     transition: .1s;
+}
+#btn:active{
+    border:5px solid #5c5079;
+    background-color: #5c5079;
 }
 @media screen and (max-width:600px){
     .head{font-size:24;}

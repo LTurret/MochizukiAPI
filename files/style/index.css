@@ -70,12 +70,10 @@ body {
     width: 130px;
     cursor: pointer;
 }
-
 .button span {
     position: relative;
     transition: 0.2s;
 }
-/* 箭頭動畫屬性 */
 .button span:after {
     content: '\00bb';
     position: absolute;
@@ -84,22 +82,12 @@ body {
     right: -20px;
     transition: 0.2s;
 }
-/* 文字動畫屬性 */
 .button:hover span {
     opacity: 100%;
     padding-right: 20px;
 }
-/* 箭頭動畫後的屬性 */
 .button:hover span:after {
     opacity: 100%;
     opacity: 1;
     right: 0;
 }
-.flex {
-    display: flex;
-}
-/* @media screen and (max-width: 700px) {
-    body {
-        background-color: aqua;
-    }
-} */

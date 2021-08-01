@@ -6,18 +6,18 @@
         <style type="text/css">
         @import "files/style/second_page.css";
         </style>
-    <script>
-        var init = function() {
-            var btn = document.getElementById("btn");
-            var sayHello = function() {
-                var message = document.getElementById("msg");
-                if (message.value.length != 0) {
-                    alert(message.value);
+        <script>
+            var init = function() {
+                var btn = document.getElementById("btn");
+                var sayHello = function() {
+                    var message = document.getElementById("msg");
+                    if (message.value.length != 0) {
+                        alert(message.value);
+                    };
                 };
-            };
-            btn.addEventListener("click", sayHello);
-        }
-    </script>
+                btn.addEventListener("click", sayHello);
+            }
+        </script>
     </head>
     <body onload="init()">
         <div class="TitleContent">我愛ㄤ奈，她的好朋友<span class="YurikoKeyword">百合子</span>也很可愛</div>
