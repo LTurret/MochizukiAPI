@@ -6,8 +6,20 @@
         <style type="text/css">
         @import "files/style/second_page.css";
         </style>
+    <script>
+        var init = function() {
+            var btn = document.getElementById("btn");
+            var sayHello = function() {
+                var message = document.getElementById("msg");
+                if (message.value.length != 0) {
+                    alert(message.value);
+                };
+            };
+            btn.addEventListener("click", sayHello);
+        }
+    </script>
     </head>
-    <body>
+    <body onload="init()">
         <div class="TitleContent">我愛ㄤ奈，她的好朋友<span class="YurikoKeyword">百合子</span>也很可愛</div>
         <div class="ImageBox">
             <div class="Image1">
@@ -22,8 +34,8 @@
             <div class="BodyContent">My Love, <span class="BodyKeyword">Anna</span>, she is very <span class="BodyKeyword">Adorable.</span></div>
         </div>
         <div class="center">
-            愛ㄉ訊息：<input type="text" value="我愛杏奈">
-            <button id="btn">送出我的愛給ㄤ奈</button>
+            愛ㄉ訊息：<input id="msg" type="text">
+            <button id="btn">送出訊息給ㄤ奈</button>
         </div>
         </form>
         <br>
